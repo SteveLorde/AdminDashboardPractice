@@ -5,29 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="dashboard">
-        <div class="Logo-Header">
+    <div class="drawer">
+                <div class="dashboard-menuitem">
+                    <img src="./assets/view-dashboard.svg" alt="">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/home.svg" alt="">
+                    <h1>Home</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/account-circle.svg" alt="">
+                    <h1>Profile</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/message-bulleted.svg" alt="">
+                    <h1>Messages</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/history.svg" alt="">
+                    <h1>History</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/check-circle.svg" alt="">
+                    <h1>Tasks</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/account-group.svg" alt="">
+                    <h1>Communities</h1>
+                </div>
+                //extraa space
+                <div class="menuItem">
+                    <img src="./assets/account-cog.svg" alt="">
+                    <h1>Settings</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/face-agent.svg" alt="">
+                    <h1>Support</h1>
+                </div>
+                <div class="menuItem">
+                    <img src="./assets/shield-account.svg" alt="">
+                    <h1>Privacy</h1>
+                </div>
+    </div>
+    <div class="navbar">
+        <div class="topnav">
+            <div class="search">
+                <div class="menuItem">
+                    <img src="./assets/magnify.svg" alt="">
+                </div>
+                <input type="text" name="search" autocomplete="">
+            </div>
+            <div class="account">
+                <div class="menuIcon">
+                    <img src="./assets/bell-outline.svg" alt="">
+                </div>
+                <div class="gh-avatar"></div>
+                <p class="name">Admin</p>
+            </div>
         </div>
-        <div class="Menu">
-            <div class="logos"></div>
-            <div class="titles-menu"></div>
+        <div class="bottom">
+            <div class="profile">
+                <!--profile details-->
+                <div class="gh-avatar"></div>
+                <div class="profile-name">
+                    <p class="greeting">Hi there</p>
+                    <p class="name">Admin <span class="username">(@admin)</span></p>
+                    <div class="buttons">
+                        <button class="btn">New</button>
+                        <button class="btn">Upload</button>
+                        <button class="btn">Share</button>
+                    </div>
+                </div>
+            <!--avatar-->
+
+            </div>
         </div>
     </div>
-    <div class="Main-Screen">
-        <div class="Header">
-            <div class="Search-Icon"><img src="" alt=""></div>
-            <div class="Search"></div>
-            
-            <div class="ButtonNew"></div>
-            <div class="ButtonUpload"></div>
-            <div class="ButtonShare"></div>
+    <main class="MainContent">
+        <div class="projects">
+            <h3>your projects</h3>
+            <div class="cards">
+                <div class="card">
+                    <h5 class="card-title">Card 1</h5>
+                    <p class="card-test">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum iure commodi sequi, recusandae delectus voluptatum fuga magnam quas ullam perferendis eveniet, vero rerum cupiditate esse sapiente mollitia doloribus architecto?
+                    </p>
+                    <div class="icons">
+                        <img src="/assets/star-plus-outline.svg" alt="">
+                        <img src="/assets/eye-plus-outline.svg" alt="">
+                        <img src="/assets/source-branch-plus.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Card 2</h5>
+                    <p class="card-test">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum iure commodi sequi, recusandae delectus voluptatum fuga magnam quas ullam perferendis eveniet, vero rerum cupiditate esse sapiente mollitia doloribus architecto?
+                    </p>
+                    <div class="icons">
+                        <img src="/assets/star-plus-outline.svg" alt="">
+                        <img src="/assets/eye-plus-outline.svg" alt="">
+                        <img src="/assets/source-branch-plus.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Card 3</h5>
+                    <p class="card-test">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic harum iure commodi sequi, recusandae delectus voluptatum fuga magnam quas ullam perferendis eveniet, vero rerum cupiditate esse sapiente mollitia doloribus architecto?
+                    </p>
+                    <div class="icons">
+                        <img src="/assets/star-plus-outline.svg" alt="">
+                        <img src="/assets/eye-plus-outline.svg" alt="">
+                        <img src="/assets/source-branch-plus.svg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="Screen">
-            <H1>Your Projects</H1>
-            <div class="Card"></div>
+        <!--side content-->
+        <!--announcements-->
+        <div class="announcements">
+            <ul class="card">
+                <li class="announcement">
+                    <h5 class="card-title">site maintenance</h5>
+                </li>
+            </ul>
         </div>
-    </div>
+        <!--trending-->
+
+    </main>
 </body>
+<script src="script.js"></script>
 </html>
