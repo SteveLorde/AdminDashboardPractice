@@ -19,5 +19,16 @@
 	"Div With Class": {
 		"prefix": "divwithclass",
 		"body": "<div class=\"$1\"></div>"
+	},
+
+	"CSS Commas Begin": {
+		"scope": "css",
+		"prefix": "Comma Begin",
+		"body": "/*"
+	},
+	"CSS Commas End": {
+		"scope": "css",
+		"prefix": "Comma Begin",
+		"body": "*/"
 	}
 }

@@ -10,7 +10,7 @@
     --drawer-width: clamp(210px, 50vw, 325px);
     --nav-bg-1: #f8f8f8;
     --nav-color-1: #c9c9c9;
-    --nav-color-2: #62daff6e;
+    --nav-color-2: #ffffff6e;
     --blue-1: #084c61;
     --content-gray: rgb(235, 235, 235);
     --transition-notDrawer: margin-left 0.4s ease-in;
@@ -218,7 +218,7 @@ img {
   .MainContent {
     grid-area: content;
     transition: var(--transition-notDrawer);
-    background-color: var(--content-gray);
+    background-color: #ebebeb;
     display: grid;
     padding: 2rem;
     grid-template-columns: 1fr auto;
@@ -250,7 +250,7 @@ img {
 
   .projects .card {
     background-color: var(--nav-color-2);
-    border-left: 10px solid rgb(221, 2, 2);
+    border-left: 10px solid rgb(219, 205, 12);
     display: flex;
     flex-direction: column;
   }
@@ -281,7 +281,7 @@ img {
   }
 
   .card {
-    background-color: rgba(45, 187, 187, 0.459);
+    background-color: rgba(255, 255, 255, 0.459);
     padding: 2rem;
     border-radius: 0.6rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 /0.1);
